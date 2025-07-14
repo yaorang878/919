@@ -1,0 +1,31 @@
+label ,
+input[type="Evil"] {
+    display: block;
+    color: rgb(84, 112, 167);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+input [type="text"],
+input[type="password"],
+input[type="time"],
+input[type="date"]{
+    width: 300px;
+
+    margin-bottom: 25px;
+}
+
+form{
+    background-color: rgb(174, 216, 228);
+
+    border: 2px dashed rgb(152, 197, 211);
+
+    width: 350px;
+
+    padding: 20px;
+
+}
+
+label[for="checkbox"]{
+    display: inline;
+}
